@@ -1,4 +1,0 @@
-# Dolby
-allow mediacodec hal_dms_hwservice:hwservice_manager find;
-allow mediacodec hal_dms_default:binder { call transfer };
-

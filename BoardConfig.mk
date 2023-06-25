@@ -39,7 +39,6 @@ AB_OTA_PARTITIONS += \
     vendor_boot
 
 # Audio
-AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 AUDIO_FEATURE_ENABLED_GKI := true
 AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
@@ -100,8 +99,7 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/hidl/vendor_framework_compatibility_matrix.xml \
-    $(DEVICE_PATH)/configs/hidl/xiaomi_framework_compatibility_matrix.xml \
-    $(DEVICE_PATH)/configs/hidl/dolby.xml
+    $(DEVICE_PATH)/configs/hidl/xiaomi_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE := \
     $(DEVICE_PATH)/configs/hidl/manifest_lahaina.xml \

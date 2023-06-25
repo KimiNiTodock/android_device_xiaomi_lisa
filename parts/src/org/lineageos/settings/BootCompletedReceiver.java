@@ -24,6 +24,7 @@ import android.os.IBinder;
 import android.view.Display.HdrCapabilities;
 import android.view.SurfaceControl;
 
+import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.PocketService;
 import org.lineageos.settings.thermal.ThermalUtils;
 
@@ -34,6 +35,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (!intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             return;
         }
+
+        // Dirac
+        DiracUtils.onBootCompleted(context);
 
         // Thermal Profiles
         ThermalUtils.startService(context);

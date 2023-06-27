@@ -174,12 +174,10 @@ ro.vendor.display.mi_calib.enable=true
 ro.vendor.display.sensortype=2
 ro.vendor.histogram.enable=true
 ro.vendor.xiaomi.bl.poll=true
-vendor.display.comp_mask=0
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_offline_rotator=1
-vendor.display.disable_scaler=0
 vendor.display.enable_async_powermode=0
 vendor.display.enable_early_wakeup=1
 vendor.display.enable_optimize_refresh=1
@@ -188,7 +186,6 @@ vendor.display.enable_posted_start_dyn=2
 vendor.display.qdcm.mode_combine=2
 vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=1
-vendor.gralloc.disable_ubwc=0
 
 # Media
 debug.stagefright.ccodec=4

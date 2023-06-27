@@ -135,7 +135,8 @@ BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a600000.dwc3 \
                         msm_rtb.filter=0x237 \
                         pcie_ports=compat \
                         swiotlb=noforce \
-                        loop.max_part=7
+                        loop.max_part=7 \
+                        kpti=off
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \

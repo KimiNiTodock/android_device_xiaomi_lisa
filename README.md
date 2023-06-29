@@ -1,6 +1,6 @@
 Copyright (C) 2022 The LineageOS Project
 
-Device configuration for Xiaomi Xiaomi 11 Lite NE
+Device configuration for Xiaomi 11 Lite NE 5G
 =========================================
 
 The Xiaomi 11 lite NE 5G (codenamed _"lisa"_) is a high-end smartphone from Xiaomi. It was released in October 2021.
